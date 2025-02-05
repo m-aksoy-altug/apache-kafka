@@ -22,6 +22,7 @@ public class ApacheProducerConsumer {
 	private static final String KAFKA_TOPIC = "stream-test";
 
 	public static void main(String[] args) {
+		// clean install compile exec:java -Dexec.mainClass="com.kafka.ApacheProducerConsumer"
 		try (final KafkaProducer<String, String> producer = setProducer();){
 			int x = 0;
 			do {
