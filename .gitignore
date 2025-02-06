@@ -1,5 +1,6 @@
 .settings
 .settings/*
 .project
+kafka.txt
 .classpath
 /target/
